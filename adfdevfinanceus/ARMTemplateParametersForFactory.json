@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevfinanceus"
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_EXCEL_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanceus.dfs.core.windows.net"
+		}
+	}
+}
